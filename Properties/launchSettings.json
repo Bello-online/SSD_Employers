@@ -1,0 +1,36 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:2590",
+      "sslPort": 44344
+    }
+  },
+  "profiles": {
+    "SSD_Employers": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7003;http://localhost:5292",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AdminUsername": "manager@example.com",
+        "AdminPassword": "Password123!",
+        "MemberUsername": "employee@example.com",
+        "MemberPassword": "Password123!"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AdminUsername": "manager@example.com",
+        "AdminPassword": "Password123!",
+        "MemberUsername": "employee@example.com",
+        "MemberPassword": "Password123!"
+      }
+    }
+  }
+}
